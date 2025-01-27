@@ -17,3 +17,41 @@
     width: 170px;
     height: auto;
 }
+
+/* body */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: black;
+}
+
+/* blue-text */
+
+.blue-text{
+    color: #007bff;
+}
+
+/* grandezza sottotitolo */
+
+h1{
+    font-size: 70px;
+}
+
+/* grandezza e stile p */
+
+.sottotitolo{
+    font-style: italic;
+    font-size: 40px;
+    color: #666;
+}
+
+/* grandezza stile data */
+
+.data{
+    font-style: italic;
+    font-size: 20px;
+    color: #666;
+    
+}
