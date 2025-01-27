@@ -93,3 +93,9 @@ h1{
     background-color: yellow;
     font-weight: bold;
 }
+
+/* elenco puntato */
+
+ul {
+    font-size: 25px;
+}
