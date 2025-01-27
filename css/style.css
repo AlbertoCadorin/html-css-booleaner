@@ -13,8 +13,8 @@
 
 .logo{
     position: absolute;
-    top: 78%;
-    width: 170px;
+    top: 65%;
+    width: 280px;
     height: auto;
 }
 
@@ -37,6 +37,7 @@ body{
 
 h1{
     font-size: 70px;
+    margin-bottom: 0%;
 }
 
 /* grandezza e stile p */
@@ -45,6 +46,7 @@ h1{
     font-style: italic;
     font-size: 40px;
     color: #666;
+    
 }
 
 /* grandezza stile data */
@@ -54,4 +56,27 @@ h1{
     font-size: 20px;
     color: #666;
     
+    
+}
+
+/* images Tim */
+
+.images{
+    display: flex;
+    margin: 0px;
+    gap: 15px;
+    
+}
+
+.images img {
+    width: 48%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* descrizione photo */
+
+.photo-caption{
+    font-size: 15px;
+    color: #666;
 }
