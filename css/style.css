@@ -80,3 +80,10 @@ h1{
     font-size: 15px;
     color: #666;
 }
+
+/* hightlight */
+
+.highlight.yellow{
+    background-color: yellow;
+    font-weight: bold;
+}
