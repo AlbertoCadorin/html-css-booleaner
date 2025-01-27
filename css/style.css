@@ -81,6 +81,12 @@ h1{
     color: #666;
 }
 
+/* central */
+
+.central{
+    font-size: 25px;
+}
+
 /* hightlight */
 
 .highlight.yellow{
