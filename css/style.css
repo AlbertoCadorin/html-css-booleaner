@@ -1,3 +1,13 @@
+/* font html */
+
+html{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
 /*  impostazioni sfondo */
 .container{
     width: 100%;
@@ -21,12 +31,8 @@
 /* body */
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
-    color: black;
-    border-left: 150px solid rgba(0, 0, 0, 50%);
-    border-right: 150px solid rgba(0, 0, 0, 50%);
 }
 
 /* blue-text */
@@ -104,31 +110,42 @@ ul {
 
 /* table */
 
-.style-table{
+table{
+    table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.style-table th {
-    background-color: #007bff;
-    color: white;
-    padding: 10px;
+thead :nth-child(1){
+    width: 30%;
+}
+thead :nth-child(2){
+    width: 30%;
+}
+thead :nth-child(3){
+    width: 40%;
+}
+th, td{
+    padding: 2%;
+}
+
+thead{
     text-align: left;
-    
 }
 
-.style-table td {
-    padding: 10px;
-    
+thead tr{
+    background-color: #62abff;
+    color: #ffff;
 }
 
-.style-table tbody tr{
-    background-color: #70cbf5;
+tbody tr:nth-child(odd){
+    background-color: #afd1f8;
 }
-.style-table tbody tr{
-    background-color: #70cbf5;
+tbody tr:nth-child(even){
+    background-color: #ffff;
 }
+
 
 /* parte finale */
 
