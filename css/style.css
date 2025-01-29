@@ -4,168 +4,124 @@ html{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-style: normal;
-}
-
-
-/*  impostazioni sfondo */
-.container{
-    width: 100%;
-    height: 180px;
-    background-color: #62abff;
-    background-image: url(/img/pattern.png);
-    background-repeat: repeat-x;
-    background-size: auto;
-    position: relative;
-}
-
-/* impostazioni logo */
-
-.logo{
-    position: absolute;
-    top: 65%;
-    width: 280px;
-    height: auto;
-}
-
-/* body */
-
-body{
-    margin: 0;
-    padding: 20px;
-}
-
-/* blue-text */
-
-.blue-text{
-    color: #007bff;
-}
-
-/* grandezza sottotitolo */
-
-h1{
-    font-size: 70px;
-    margin-bottom: 0%;
-}
-
-/* grandezza e stile p */
-
-.sottotitolo{
-    font-style: italic;
-    font-size: 40px;
-    color: #666;
     
 }
 
-/* grandezza stile data */
+/*reset*/
 
-.data{
-    font-style: italic;
-    font-size: 20px;
-    color: #666;
-    
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* images Tim */
+/*common*/
 
-.images{
-    display: flex;
-    margin: 0px;
-    gap: 15px;
-    
+.container {
+  max-width: 70%;
+
+  margin: 0 auto;
 }
 
-.images img {
-    width: 48%;
-    height: auto;
-    border-radius: 5px;
+.mb-default {
+  margin-bottom: 20px;
 }
 
-/* descrizione photo */
-
-.photo-caption{
-    font-size: 15px;
-    color: #666;
+.highlights {
+  background-color: #ffff00;
 }
 
-/* central */
+/*Type*/
 
-.central{
-    font-size: 25px;
+.main-light-color {
+  color: #808080;
 }
 
-/* hightlight */
-
-.highlight.yellow{
-    background-color: yellow;
-    font-weight: bold;
+footer h4 {
+  margin-bottom: 12px;
 }
 
-/* elenco puntato */
+/*Header*/
 
-ul {
-    font-size: 25px;
-}
+header {
+  background-color: #4ea0ff;
+  background-image: url('../img/pattern.png');
+  background-size: 30%;
 
-/* table */
+  /* shorthand */
 
-table{
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+  padding: 40px 0px 15px 0px;
 
-thead :nth-child(1){
-    width: 30%;
-}
-thead :nth-child(2){
-    width: 30%;
-}
-thead :nth-child(3){
-    width: 40%;
-}
-th, td{
-    padding: 2%;
+  /* margin-bottom: 25px; */
+
 }
 
-thead{
-    text-align: left;
-}
-
-thead tr{
-    background-color: #62abff;
-    color: #ffff;
-}
-
-tbody tr:nth-child(odd){
-    background-color: #afd1f8;
-}
-tbody tr:nth-child(even){
-    background-color: #ffff;
+#logo {
+  height: 40px;
 }
 
 
-/* parte finale */
+/*Main*/
 
-.suggest {
-   margin: 40px;
+h1 {
+  font-size: 40px;
 }
 
-.suggest-item{
-  display: flex;
-  gap: 20px;
+.author {
+  color: #20a9e5;
 }
 
-.item img {
-   width: 100px;
-   height: auto;
-   border: 5px;
+.article-date {
+  font-size: 14px;
 }
 
-.item p {
-  font-size: 20px;
-  text-align: center;
-  margin: 5px 0 0;
+/* image section */
+
+.caption {
+  font-size: 12px;
+}
+
+/* content section */
+
+.content-list-items {
+  list-style-position: inside;
+}
+
+#table-content {
+  border-collapse: collapse;
+}
+
+#table-content thead {
+  background-color: #20a9e5;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+#table-content .main-col {
+  width: 50%;
+}
+
+#table-content .odd {
+  background-color: #b1e5f2;
+}
+
+/* footer*/
+
+.box-image {
+  width: 210px;
+  height: 160px;
+  background-color: red;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#image-a {
+  background-image: url('../img/monitor.jpg');
+  background-size: cover;
+}
+
+#image-b {
+  background-image: url('../img/graph.jpg');
 }
